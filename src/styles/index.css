@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+/* Custom styles */
+body {
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  @apply bg-gray-50 text-gray-900;
+}
+
+.prose pre {
+  @apply my-2 overflow-auto rounded-md bg-gray-800 p-4 text-white;
+}
+
+.prose code {
+  @apply font-mono text-sm;
+}
+
+.prose p {
+  @apply my-2;
+}
+
+.prose h1 {
+  @apply mt-6 mb-4 text-2xl font-bold;
+}
+
+.prose h2 {
+  @apply mt-5 mb-3 text-xl font-bold;
+}
+
+.prose h3 {
+  @apply mt-4 mb-2 text-lg font-bold;
+}
+
+.prose h4 {
+  @apply mt-4 mb-2 text-base font-bold;
+}
+
+.prose ul,
+.prose ol {
+  @apply my-3 pl-6;
+}
+
+.prose ul {
+  @apply list-disc;
+}
+
+.prose ol {
+  @apply list-decimal;
+}
+
+.prose li {
+  @apply mb-1;
+}
+
+.prose blockquote {
+  @apply my-4 border-l-4 border-gray-300 pl-4 text-gray-700 italic;
+}
+
+.prose a {
+  @apply text-blue-600 hover:underline;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

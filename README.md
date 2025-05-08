@@ -1,4 +1,4 @@
-# claude-data-export-reader
+# Claude Reader
 
 ## Tech Stack
 
